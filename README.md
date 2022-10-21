@@ -1,6 +1,6 @@
 # Bilili 视频全字幕
 
-课程自动笔记
+使用 `openai` `whisper` 实现 声音转写
 
 
 
