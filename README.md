@@ -20,7 +20,8 @@
 
 ```bash
 conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge
-conda install paddlepaddle-gpu==2.3.2 cudatoolkit=11.6 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/Paddle/ -c conda-forge 
+conda install paddlepaddle-gpu==2.3.2 cudatoolkit=11.6 \
+  -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/Paddle/ -c conda-forge 
 conda install transformers -c conda-forge
 conda install yt-dlp -c conda-forge
 pip install paddlenlp
